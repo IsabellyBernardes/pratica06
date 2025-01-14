@@ -10,4 +10,6 @@ int main() {
     //main_hashtable();
 
     return 0;
+
+    //g++ main.cpp hashtable.cpp ordenada.cpp -o "pratica06"
 }
