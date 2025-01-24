@@ -11,5 +11,6 @@ int main() {
 
     return 0;
 
-    //g++ main.cpp ordenada.cpp -o "pratica06"
+    //g++ main.cpp ordenada.cpp -o "programa"
+    //g++ main.cpp hashtable.cpp -o "programa"
 }
