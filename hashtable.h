@@ -115,9 +115,16 @@ private:
 
     // Calcula o hash (indice) para chaves do tipo string
     int hash(string key) {
-        int hash = 1;
-        // TODO
-        return hash % capacity;
+    int hash = 0;
+    int prime = 7;  
+    // método de Horner, define um valor primo. Pega a capcidade e divide por dois
+    //o resultado indicará o meio, deve utilizar o prox primo disponivel e dentro dos limites da tabela
+    //pois diz que a pesquisa será melhor
+    //normalmente usam o número 31 para isso
+    for (char c : key) {
+        hash = (prime * hash + c) % capacity;
+    }
+    return (hash + capacity) % capacity;
     }
 
 };

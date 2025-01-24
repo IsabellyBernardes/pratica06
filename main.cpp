@@ -5,11 +5,11 @@ int main_hashtable();
 
 int main() {
 
-    main_ordenada();
+    //main_ordenada();
 
-    //main_hashtable();
+    main_hashtable();
 
     return 0;
 
-    //g++ main.cpp hashtable.cpp ordenada.cpp -o "pratica06"
+    //g++ main.cpp ordenada.cpp -o "pratica06"
 }
